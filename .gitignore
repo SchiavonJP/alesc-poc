@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Kedro / pipeline intermediates
+data/02_intermediate/
+data/03_primary/
+data/04_feature/
+data/05_model_output/
+
+# Raw data (kept locally, not versioned)
+data/01_raw/*.csv
+data/01_raw/*.xlsx
+!data/01_raw/ipca_series.csv
+
+# Outputs (generated artifacts)
+outputs/models/
+outputs/results/
+outputs/plots/
+outputs/reports/*.html
+outputs/reports/*.tex
+outputs/*.log
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/**/.ipynb_checkpoints/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# mypy / ruff caches
+.mypy_cache/
+.ruff_cache/
+
+# Local Kedro config overrides
+conf/local/
+
+# uv lock (optional: commit if reproducibility needed)
+# uv.lock
+
+# dotenv
+.env
+.env.*
+!.env.example
+
+graphify-out/cache/*
+temp/*
+temp/

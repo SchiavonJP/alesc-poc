@@ -1,0 +1,25 @@
+# ── Kedro Data Catalog ────────────────────────────────────────────────────────
+
+intermediate_expenses:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/expenses.parquet
+
+adjusted_expenses:
+  type: pandas.ParquetDataset
+  filepath: data/03_primary/adjusted_expenses.parquet
+
+train_features:
+  type: pandas.ParquetDataset
+  filepath: data/04_feature/train_features.parquet
+
+test_features:
+  type: pandas.ParquetDataset
+  filepath: data/04_feature/test_features.parquet
+
+infer_features:
+  type: pandas.ParquetDataset
+  filepath: data/04_feature/infer_features.parquet
+
+reversals:
+  type: pandas.ParquetDataset
+  filepath: data/04_feature/reversals.parquet

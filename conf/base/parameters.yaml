@@ -1,0 +1,62 @@
+# ── Global pipeline parameters ──────────────────────────────────────────────
+
+# Reproducibility
+random_seed: 42
+
+# Data layers
+raw_data_dir: "data/01_raw"
+
+# Train / test / inference year boundaries
+train_years: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022]
+test_years: [2023, 2024, 2025]
+inference_years: [2026]
+excluded_years: [2020]   # COVID outlier
+
+# IPCA inflation correction
+ipca_reference_year: 2026   # adjust all values to Jan 1, 2026 BRL
+
+# Minimum rows required to train a category model
+min_rows_train: 500
+
+# Feature engineering
+hash_dim_favorecido: 64   # hashing trick dimension for Favorecido/Conta
+mean_value_group: ["verba", "conta"]  # compute mean_value groupby keys (snake_case after ingestion)
+
+# Contamination estimation (IQR method on Valor)
+contamination_iqr_multiplier: 1.5
+contamination_min: 0.01
+contamination_max: 0.15
+
+# KNN / LOF hyperparameter search space
+knn_k_candidates: [3, 5, 10, 15]
+lof_k_candidates: [3, 5, 10, 15]
+lof_subsample_threshold: 20000   # rows; subsample if category exceeds this
+lof_subsample_size: 15000
+
+# GMM
+gmm_max_components: 8   # BIC search up to this many components
+
+# OCSVM
+ocsvm_subsample_threshold: 10000
+ocsvm_subsample_size: 8000
+ocsvm_nu: 0.1
+
+# SOD (optional — set to false to skip)
+include_sod: false
+
+# Ensemble
+ensemble_strategy: "consensus"   # all models must agree
+
+# SHAP
+shap_max_records: 500   # limit SHAP computation to N flagged records
+
+# Reporting
+temporal_trend_start_year: 2011
+temporal_trend_end_year: 2025
+top_anomalies_per_category: 20  # number of waterfall plots to generate
+
+# LLM Explanations (Ollama — requires UFSC VPN)
+ollama_base_url: "https://ollama.ceos.ufsc.br"
+ollama_model: "qwen3.6"
+ollama_timeout_seconds: 300
+llm_max_records: 100   # max flagged records to explain per run; -1 for all
