@@ -72,3 +72,5 @@ conf/local/
 graphify-out/cache/*
 temp/*
 temp/
+QUESTIONS.md
+uv.lock

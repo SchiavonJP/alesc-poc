@@ -76,8 +76,3 @@ src/alesc_poc/pipelines/
   reporting/   # Metrics JSON, results CSV, LaTeX tables, trend plots
   reversal/    # Separate EDA for devoluções
 ```
-
-## Article
-
-BRACIS 2026 — General Applications track.  
-Target submission: May 4, 2026.
