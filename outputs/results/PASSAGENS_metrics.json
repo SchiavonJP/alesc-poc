@@ -1,0 +1,21 @@
+{
+  "category": "PASSAGENS",
+  "n_records": 4384,
+  "n_flagged_ensemble": 293,
+  "flagged_pct": 6.6834,
+  "iqr_baseline_pct": 6.8204,
+  "reduction_factor": 1.02,
+  "individual_model_rates": {
+    "iforest": 0.3362226277372263,
+    "knn": 0.3314324817518248,
+    "lof": 0.2908302919708029,
+    "gmm": 0.260720802919708,
+    "ocsvm": 0.301779197080292
+  },
+  "anomaly_valor_stats": {
+    "mean": 2008.03,
+    "median": 1733.02,
+    "min": 55.51,
+    "max": 19795.21
+  }
+}

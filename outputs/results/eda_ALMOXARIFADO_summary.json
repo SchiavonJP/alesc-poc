@@ -1,0 +1,38 @@
+{
+  "category": "ALMOXARIFADO",
+  "n_records": 7749,
+  "n_years": 15,
+  "year_min": 2011,
+  "year_max": 2025,
+  "valor_mean": 517.86,
+  "valor_median": 200.48,
+  "valor_std": 796.55,
+  "valor_min": 1.15,
+  "valor_max": 14113.17,
+  "top_conta": [
+    {
+      "conta": "Marcos Luiz Vieira",
+      "count": 218
+    },
+    {
+      "conta": "Luciane Carminatti",
+      "count": 215
+    },
+    {
+      "conta": "Pedro Baldissera",
+      "count": 208
+    },
+    {
+      "conta": "José Milton Scheffer",
+      "count": 196
+    },
+    {
+      "conta": "Mauro de Nadal",
+      "count": 192
+    }
+  ],
+  "null_favorecido_pct": 100.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": []
+}

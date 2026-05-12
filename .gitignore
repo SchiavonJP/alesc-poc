@@ -16,7 +16,8 @@ venv/
 env/
 
 # Kedro / pipeline intermediates
-data/02_intermediate/
+data/02_intermediate/*
+!data/02_intermediate/expenses.parquet
 data/03_primary/
 data/04_feature/
 data/05_model_output/
@@ -28,7 +29,9 @@ data/01_raw/*.xlsx
 
 # Outputs (generated artifacts)
 outputs/models/
-outputs/results/
+outputs/results/*
+!outputs/results/*.csv
+!outputs/results/*.json
 outputs/plots/
 outputs/reports/*.html
 outputs/reports/*.tex

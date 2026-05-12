@@ -1,0 +1,46 @@
+{
+  "category": "INSCRIÇÃO",
+  "n_records": 465,
+  "n_years": 15,
+  "year_min": 2011,
+  "year_max": 2025,
+  "valor_mean": 826.28,
+  "valor_median": 600.0,
+  "valor_std": 833.54,
+  "valor_min": 70.0,
+  "valor_max": 7083.0,
+  "top_conta": [
+    {
+      "conta": "Antônio Aguiar",
+      "count": 32
+    },
+    {
+      "conta": "Gean Loureiro",
+      "count": 31
+    },
+    {
+      "conta": "Romildo Titon",
+      "count": 27
+    },
+    {
+      "conta": "José Milton Scheffer",
+      "count": 19
+    },
+    {
+      "conta": "Darci de Matos",
+      "count": 16
+    }
+  ],
+  "null_favorecido_pct": 0.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": [
+    {
+      "year": 2020,
+      "mean": 3500.0,
+      "std": NaN,
+      "count": 1,
+      "z_score": 3.4480605838075022
+    }
+  ]
+}

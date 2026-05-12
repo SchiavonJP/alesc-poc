@@ -1,0 +1,223 @@
+[
+  {
+    "category": "ALMOXARIFADO",
+    "n_records": 1375,
+    "n_flagged_ensemble": 102,
+    "flagged_pct": 7.4182,
+    "iqr_baseline_pct": 9.7496,
+    "reduction_factor": 1.31,
+    "individual_model_rates": {
+      "iforest": 0.2290909090909091,
+      "knn": 0.6363636363636364,
+      "lof": 0.6,
+      "gmm": 0.44581818181818184,
+      "ocsvm": 0.46836363636363637
+    },
+    "anomaly_valor_stats": {
+      "mean": 1164.96,
+      "median": 172.73,
+      "min": 1.2,
+      "max": 16083.76
+    }
+  },
+  {
+    "category": "ALUGUEL",
+    "n_records": 794,
+    "n_flagged_ensemble": 0,
+    "flagged_pct": 0.0,
+    "iqr_baseline_pct": 1.8927,
+    "reduction_factor": 18927444.79,
+    "individual_model_rates": {
+      "iforest": 0.011335012594458438,
+      "knn": 0.14105793450881612,
+      "lof": 0.09319899244332494,
+      "gmm": 0.690176322418136,
+      "ocsvm": 0.15869017632241814
+    },
+    "anomaly_valor_stats": {}
+  },
+  {
+    "category": "ASSINATURA_DE_TV_A_CABO",
+    "n_records": 1384,
+    "n_flagged_ensemble": 168,
+    "flagged_pct": 12.1387,
+    "iqr_baseline_pct": 15.0,
+    "reduction_factor": 1.24,
+    "individual_model_rates": {
+      "iforest": 0.1842485549132948,
+      "knn": 0.9356936416184971,
+      "lof": 0.9985549132947977,
+      "gmm": 0.8078034682080925,
+      "ocsvm": 0.869942196531792
+    },
+    "anomaly_valor_stats": {
+      "mean": 142.69,
+      "median": 131.68,
+      "min": 27.22,
+      "max": 246.92
+    }
+  },
+  {
+    "category": "COMBUSTIVEIS",
+    "n_records": 170,
+    "n_flagged_ensemble": 0,
+    "flagged_pct": 0.0,
+    "iqr_baseline_pct": 3.0027,
+    "reduction_factor": 30026809.65,
+    "individual_model_rates": {
+      "iforest": 0.01764705882352941,
+      "knn": 0.3176470588235294,
+      "lof": 0.3352941176470588,
+      "gmm": 0.34705882352941175,
+      "ocsvm": 0.2411764705882353
+    },
+    "anomaly_valor_stats": {}
+  },
+  {
+    "category": "CORRESPONDENCIA___TELEGRAMA",
+    "n_records": 580,
+    "n_flagged_ensemble": 3,
+    "flagged_pct": 0.5172,
+    "iqr_baseline_pct": 11.3816,
+    "reduction_factor": 22.0,
+    "individual_model_rates": {
+      "iforest": 0.07931034482758621,
+      "knn": 0.6137931034482759,
+      "lof": 0.6482758620689655,
+      "gmm": 0.21551724137931033,
+      "ocsvm": 0.3137931034482759
+    },
+    "anomaly_valor_stats": {
+      "mean": 165.91,
+      "median": 64.84,
+      "min": 63.54,
+      "max": 369.35
+    }
+  },
+  {
+    "category": "DIARIAS",
+    "n_records": 24890,
+    "n_flagged_ensemble": 38,
+    "flagged_pct": 0.1527,
+    "iqr_baseline_pct": 4.4813,
+    "reduction_factor": 29.35,
+    "individual_model_rates": {
+      "iforest": 0.05869827239855364,
+      "knn": 0.29750903977501003,
+      "lof": 0.14174367215749298,
+      "gmm": 0.17416633186018482,
+      "ocsvm": 0.1288469264764966
+    },
+    "anomaly_valor_stats": {
+      "mean": 6752.54,
+      "median": 1002.25,
+      "min": 665.31,
+      "max": 41705.73
+    }
+  },
+  {
+    "category": "GRAFICA",
+    "n_records": 499,
+    "n_flagged_ensemble": 38,
+    "flagged_pct": 7.6152,
+    "iqr_baseline_pct": 13.408,
+    "reduction_factor": 1.76,
+    "individual_model_rates": {
+      "iforest": 0.30861723446893785,
+      "knn": 0.7414829659318637,
+      "lof": 0.7755511022044088,
+      "gmm": 0.3667334669338677,
+      "ocsvm": 0.4228456913827655
+    },
+    "anomaly_valor_stats": {
+      "mean": 309.35,
+      "median": 76.93,
+      "min": 4.56,
+      "max": 2416.01
+    }
+  },
+  {
+    "category": "PASSAGENS",
+    "n_records": 4384,
+    "n_flagged_ensemble": 293,
+    "flagged_pct": 6.6834,
+    "iqr_baseline_pct": 6.8204,
+    "reduction_factor": 1.02,
+    "individual_model_rates": {
+      "iforest": 0.3362226277372263,
+      "knn": 0.3314324817518248,
+      "lof": 0.2908302919708029,
+      "gmm": 0.260720802919708,
+      "ocsvm": 0.301779197080292
+    },
+    "anomaly_valor_stats": {
+      "mean": 2008.03,
+      "median": 1733.02,
+      "min": 55.51,
+      "max": 19795.21
+    }
+  },
+  {
+    "category": "REEMBOLSOS",
+    "n_records": 5709,
+    "n_flagged_ensemble": 90,
+    "flagged_pct": 1.5765,
+    "iqr_baseline_pct": 11.2837,
+    "reduction_factor": 7.16,
+    "individual_model_rates": {
+      "iforest": 0.16307584515677,
+      "knn": 0.2883166929409704,
+      "lof": 0.3517253459449991,
+      "gmm": 0.5715536871606236,
+      "ocsvm": 0.34769661937291996
+    },
+    "anomaly_valor_stats": {
+      "mean": 2630.97,
+      "median": 578.4,
+      "min": 105.83,
+      "max": 49160.66
+    }
+  },
+  {
+    "category": "TELEFONE",
+    "n_records": 3712,
+    "n_flagged_ensemble": 31,
+    "flagged_pct": 0.8351,
+    "iqr_baseline_pct": 8.2015,
+    "reduction_factor": 9.82,
+    "individual_model_rates": {
+      "iforest": 0.11772629310344827,
+      "knn": 0.6514008620689655,
+      "lof": 0.5897090517241379,
+      "gmm": 0.2174030172413793,
+      "ocsvm": 0.42510775862068967
+    },
+    "anomaly_valor_stats": {
+      "mean": 220.67,
+      "median": 42.13,
+      "min": 8.85,
+      "max": 1065.44
+    }
+  },
+  {
+    "category": "VEICULOS",
+    "n_records": 1495,
+    "n_flagged_ensemble": 217,
+    "flagged_pct": 14.5151,
+    "iqr_baseline_pct": 15.0,
+    "reduction_factor": 1.03,
+    "individual_model_rates": {
+      "iforest": 0.21739130434782608,
+      "knn": 0.9565217391304348,
+      "lof": 1.0,
+      "gmm": 0.7739130434782608,
+      "ocsvm": 0.7846153846153846
+    },
+    "anomaly_valor_stats": {
+      "mean": 8410.35,
+      "median": 9418.39,
+      "min": 655.97,
+      "max": 9873.43
+    }
+  }
+]

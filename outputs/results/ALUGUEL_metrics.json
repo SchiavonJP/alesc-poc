@@ -1,0 +1,16 @@
+{
+  "category": "ALUGUEL",
+  "n_records": 794,
+  "n_flagged_ensemble": 0,
+  "flagged_pct": 0.0,
+  "iqr_baseline_pct": 1.8927,
+  "reduction_factor": 18927444.79,
+  "individual_model_rates": {
+    "iforest": 0.011335012594458438,
+    "knn": 0.14105793450881612,
+    "lof": 0.09319899244332494,
+    "gmm": 0.690176322418136,
+    "ocsvm": 0.15869017632241814
+  },
+  "anomaly_valor_stats": {}
+}

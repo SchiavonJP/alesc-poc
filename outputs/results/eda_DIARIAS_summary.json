@@ -1,0 +1,38 @@
+{
+  "category": "DIÁRIAS",
+  "n_records": 119382,
+  "n_years": 16,
+  "year_min": 2011,
+  "year_max": 2026,
+  "valor_mean": 876.31,
+  "valor_median": 668.0,
+  "valor_std": 969.3,
+  "valor_min": -6670.0,
+  "valor_max": 54008.15,
+  "top_conta": [
+    {
+      "conta": "Maurício José Eskudlark",
+      "count": 3986
+    },
+    {
+      "conta": "José Milton Scheffer",
+      "count": 3957
+    },
+    {
+      "conta": "Pedro Baldissera",
+      "count": 3678
+    },
+    {
+      "conta": "Dirce Aparecida Heiderscheidt",
+      "count": 3334
+    },
+    {
+      "conta": "Luciane Carminatti",
+      "count": 3278
+    }
+  ],
+  "null_favorecido_pct": 0.0,
+  "n_reversals": 5217,
+  "reversal_rate_pct": 4.37,
+  "cross_year_flagged": []
+}

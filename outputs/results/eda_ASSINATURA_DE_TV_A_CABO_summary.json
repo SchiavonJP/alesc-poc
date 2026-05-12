@@ -1,0 +1,38 @@
+{
+  "category": "Assinatura de TV a Cabo",
+  "n_records": 2751,
+  "n_years": 7,
+  "year_min": 2020,
+  "year_max": 2026,
+  "valor_mean": 105.86,
+  "valor_median": 105.56,
+  "valor_std": 34.78,
+  "valor_min": 13.49,
+  "valor_max": 288.9,
+  "top_conta": [
+    {
+      "conta": "Pedro Baldissera",
+      "count": 72
+    },
+    {
+      "conta": "José Milton Scheffer",
+      "count": 72
+    },
+    {
+      "conta": "Sergio Motta Ribeiro",
+      "count": 72
+    },
+    {
+      "conta": "Neodi Saretta",
+      "count": 72
+    },
+    {
+      "conta": "Vicente Caropreso",
+      "count": 72
+    }
+  ],
+  "null_favorecido_pct": 100.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": []
+}

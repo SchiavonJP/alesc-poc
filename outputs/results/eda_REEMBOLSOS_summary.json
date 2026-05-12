@@ -1,0 +1,38 @@
+{
+  "category": "Reembolsos",
+  "n_records": 10850,
+  "n_years": 13,
+  "year_min": 2011,
+  "year_max": 2026,
+  "valor_mean": 741.29,
+  "valor_median": 288.0,
+  "valor_std": 2052.42,
+  "valor_min": -4253.0,
+  "valor_max": 48915.0,
+  "top_conta": [
+    {
+      "conta": "Napoleão Bernardes",
+      "count": 501
+    },
+    {
+      "conta": "Vicente Caropreso",
+      "count": 490
+    },
+    {
+      "conta": "Marcius da Silva Machado",
+      "count": 470
+    },
+    {
+      "conta": "Volnei Weber",
+      "count": 437
+    },
+    {
+      "conta": "Ivan Naatz",
+      "count": 411
+    }
+  ],
+  "null_favorecido_pct": 0.0,
+  "n_reversals": 1300,
+  "reversal_rate_pct": 11.9816,
+  "cross_year_flagged": []
+}

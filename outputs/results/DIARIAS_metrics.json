@@ -1,0 +1,21 @@
+{
+  "category": "DIARIAS",
+  "n_records": 24890,
+  "n_flagged_ensemble": 38,
+  "flagged_pct": 0.1527,
+  "iqr_baseline_pct": 4.4813,
+  "reduction_factor": 29.35,
+  "individual_model_rates": {
+    "iforest": 0.05869827239855364,
+    "knn": 0.29750903977501003,
+    "lof": 0.14174367215749298,
+    "gmm": 0.17416633186018482,
+    "ocsvm": 0.1288469264764966
+  },
+  "anomaly_valor_stats": {
+    "mean": 6752.54,
+    "median": 1002.25,
+    "min": 665.31,
+    "max": 41705.73
+  }
+}

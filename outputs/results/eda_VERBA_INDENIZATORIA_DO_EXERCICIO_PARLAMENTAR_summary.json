@@ -1,0 +1,38 @@
+{
+  "category": "VERBA INDENIZATÓRIA DO EXERCÍCIO PARLAMENTAR",
+  "n_records": 6683,
+  "n_years": 9,
+  "year_min": 2011,
+  "year_max": 2019,
+  "valor_mean": 545.75,
+  "valor_median": 203.0,
+  "valor_std": 720.55,
+  "valor_min": 4.97,
+  "valor_max": 7999.0,
+  "top_conta": [
+    {
+      "conta": "Luciane Carminatti",
+      "count": 340
+    },
+    {
+      "conta": "Jean Jackson Kuhlmann",
+      "count": 331
+    },
+    {
+      "conta": "Silvio Dreveck",
+      "count": 318
+    },
+    {
+      "conta": "Ismael dos Santos",
+      "count": 295
+    },
+    {
+      "conta": "Ana Paula de Lima",
+      "count": 293
+    }
+  ],
+  "null_favorecido_pct": 0.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": []
+}

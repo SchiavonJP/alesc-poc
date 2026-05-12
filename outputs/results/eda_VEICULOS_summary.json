@@ -1,0 +1,38 @@
+{
+  "category": "VEÍCULOS",
+  "n_records": 2905,
+  "n_years": 7,
+  "year_min": 2020,
+  "year_max": 2026,
+  "valor_mean": 7107.34,
+  "valor_median": 7824.91,
+  "valor_std": 2094.08,
+  "valor_min": 48.94,
+  "valor_max": 9326.87,
+  "top_conta": [
+    {
+      "conta": "Marcos Luiz Vieira",
+      "count": 76
+    },
+    {
+      "conta": "José Milton Scheffer",
+      "count": 75
+    },
+    {
+      "conta": "Sergio Motta Ribeiro",
+      "count": 75
+    },
+    {
+      "conta": "Jair Antonio Miotto",
+      "count": 75
+    },
+    {
+      "conta": "Vicente Caropreso",
+      "count": 75
+    }
+  ],
+  "null_favorecido_pct": 99.7935,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": []
+}

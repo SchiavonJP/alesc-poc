@@ -1,0 +1,559 @@
+{
+  "total_records": 223625,
+  "n_categories": 14,
+  "year_min": 2011,
+  "year_max": 2026,
+  "n_years": 16,
+  "overall_reversal_pct": 4.601,
+  "overall_null_favorecido_pct": 21.4949,
+  "categories": [
+    {
+      "category": "ALMOXARIFADO",
+      "n_records": 7749,
+      "n_years": 15,
+      "year_min": 2011,
+      "year_max": 2025,
+      "valor_mean": 517.86,
+      "valor_median": 200.48,
+      "valor_std": 796.55,
+      "valor_min": 1.15,
+      "valor_max": 14113.17,
+      "top_conta": [
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 218
+        },
+        {
+          "conta": "Luciane Carminatti",
+          "count": 215
+        },
+        {
+          "conta": "Pedro Baldissera",
+          "count": 208
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 196
+        },
+        {
+          "conta": "Mauro de Nadal",
+          "count": 192
+        }
+      ],
+      "null_favorecido_pct": 100.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "Aluguel",
+      "n_records": 1738,
+      "n_years": 7,
+      "year_min": 2020,
+      "year_max": 2026,
+      "valor_mean": 2215.45,
+      "valor_median": 2246.32,
+      "valor_std": 746.59,
+      "valor_min": 7.9,
+      "valor_max": 3876.63,
+      "top_conta": [
+        {
+          "conta": "Maurício José Eskudlark",
+          "count": 104
+        },
+        {
+          "conta": "Julio Garcia",
+          "count": 77
+        },
+        {
+          "conta": "Ivan Naatz",
+          "count": 76
+        },
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 74
+        },
+        {
+          "conta": "Fabiano da Luz",
+          "count": 74
+        }
+      ],
+      "null_favorecido_pct": 0.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "Assinatura de TV a Cabo",
+      "n_records": 2751,
+      "n_years": 7,
+      "year_min": 2020,
+      "year_max": 2026,
+      "valor_mean": 105.86,
+      "valor_median": 105.56,
+      "valor_std": 34.78,
+      "valor_min": 13.49,
+      "valor_max": 288.9,
+      "top_conta": [
+        {
+          "conta": "Pedro Baldissera",
+          "count": 72
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 72
+        },
+        {
+          "conta": "Sergio Motta Ribeiro",
+          "count": 72
+        },
+        {
+          "conta": "Neodi Saretta",
+          "count": 72
+        },
+        {
+          "conta": "Vicente Caropreso",
+          "count": 72
+        }
+      ],
+      "null_favorecido_pct": 100.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "COMBUSTÍVEIS",
+      "n_records": 8311,
+      "n_years": 16,
+      "year_min": 2011,
+      "year_max": 2026,
+      "valor_mean": 544.27,
+      "valor_median": 538.13,
+      "valor_std": 1048.74,
+      "valor_min": -50875.0,
+      "valor_max": 7112.44,
+      "top_conta": [
+        {
+          "conta": "Ismael dos Santos",
+          "count": 516
+        },
+        {
+          "conta": "Romildo Titon",
+          "count": 323
+        },
+        {
+          "conta": "Pedro Baldissera",
+          "count": 314
+        },
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 310
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 302
+        }
+      ],
+      "null_favorecido_pct": 41.5353,
+      "n_reversals": 2294,
+      "reversal_rate_pct": 27.602,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "Correspondência / Telegrama",
+      "n_records": 5241,
+      "n_years": 16,
+      "year_min": 2011,
+      "year_max": 2026,
+      "valor_mean": 1350.06,
+      "valor_median": 230.97,
+      "valor_std": 3756.15,
+      "valor_min": 1.2,
+      "valor_max": 64689.94,
+      "top_conta": [
+        {
+          "conta": "Luciane Carminatti",
+          "count": 171
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 166
+        },
+        {
+          "conta": "Pedro Baldissera",
+          "count": 155
+        },
+        {
+          "conta": "Mauro de Nadal",
+          "count": 154
+        },
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 145
+        }
+      ],
+      "null_favorecido_pct": 100.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "DIÁRIAS",
+      "n_records": 119382,
+      "n_years": 16,
+      "year_min": 2011,
+      "year_max": 2026,
+      "valor_mean": 876.31,
+      "valor_median": 668.0,
+      "valor_std": 969.3,
+      "valor_min": -6670.0,
+      "valor_max": 54008.15,
+      "top_conta": [
+        {
+          "conta": "Maurício José Eskudlark",
+          "count": 3986
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 3957
+        },
+        {
+          "conta": "Pedro Baldissera",
+          "count": 3678
+        },
+        {
+          "conta": "Dirce Aparecida Heiderscheidt",
+          "count": 3334
+        },
+        {
+          "conta": "Luciane Carminatti",
+          "count": 3278
+        }
+      ],
+      "null_favorecido_pct": 0.0,
+      "n_reversals": 5217,
+      "reversal_rate_pct": 4.37,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "GRÁFICA",
+      "n_records": 3555,
+      "n_years": 16,
+      "year_min": 2011,
+      "year_max": 2026,
+      "valor_mean": 388.31,
+      "valor_median": 60.0,
+      "valor_std": 1428.22,
+      "valor_min": 0.2,
+      "valor_max": 31057.5,
+      "top_conta": [
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 116
+        },
+        {
+          "conta": "Pedro Baldissera",
+          "count": 115
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 114
+        },
+        {
+          "conta": "Ismael dos Santos",
+          "count": 107
+        },
+        {
+          "conta": "Luciane Carminatti",
+          "count": 104
+        }
+      ],
+      "null_favorecido_pct": 100.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": [
+        {
+          "year": 2016,
+          "mean": 1056.8419330855018,
+          "std": 3253.359946181814,
+          "count": 269,
+          "z_score": 2.829544336640746
+        }
+      ]
+    },
+    {
+      "category": "INSCRIÇÃO",
+      "n_records": 465,
+      "n_years": 15,
+      "year_min": 2011,
+      "year_max": 2025,
+      "valor_mean": 826.28,
+      "valor_median": 600.0,
+      "valor_std": 833.54,
+      "valor_min": 70.0,
+      "valor_max": 7083.0,
+      "top_conta": [
+        {
+          "conta": "Antônio Aguiar",
+          "count": 32
+        },
+        {
+          "conta": "Gean Loureiro",
+          "count": 31
+        },
+        {
+          "conta": "Romildo Titon",
+          "count": 27
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 19
+        },
+        {
+          "conta": "Darci de Matos",
+          "count": 16
+        }
+      ],
+      "null_favorecido_pct": 0.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": [
+        {
+          "year": 2020,
+          "mean": 3500.0,
+          "std": NaN,
+          "count": 1,
+          "z_score": 3.4480605838075022
+        }
+      ]
+    },
+    {
+      "category": "PASSAGENS",
+      "n_records": 32558,
+      "n_years": 16,
+      "year_min": 2011,
+      "year_max": 2026,
+      "valor_mean": 509.28,
+      "valor_median": 272.49,
+      "valor_std": 1192.42,
+      "valor_min": -56344.55,
+      "valor_max": 145850.0,
+      "top_conta": [
+        {
+          "conta": "Luciane Carminatti",
+          "count": 2212
+        },
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 1905
+        },
+        {
+          "conta": "Dirceu Luiz Dresch",
+          "count": 1832
+        },
+        {
+          "conta": "Mauro de Nadal",
+          "count": 1563
+        },
+        {
+          "conta": "Maurício José Eskudlark",
+          "count": 1230
+        }
+      ],
+      "null_favorecido_pct": 3.0223,
+      "n_reversals": 1478,
+      "reversal_rate_pct": 4.5396,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "RESTAURANTE",
+      "n_records": 1907,
+      "n_years": 4,
+      "year_min": 2011,
+      "year_max": 2014,
+      "valor_mean": 5078.62,
+      "valor_median": 4880.11,
+      "valor_std": 3068.68,
+      "valor_min": 7.71,
+      "valor_max": 32075.88,
+      "top_conta": [
+        {
+          "conta": "Kennedy Nunes",
+          "count": 48
+        },
+        {
+          "conta": "Dirceu Luiz Dresch",
+          "count": 48
+        },
+        {
+          "conta": "Moacir Sopelsa",
+          "count": 48
+        },
+        {
+          "conta": "Pedro Baldissera",
+          "count": 48
+        },
+        {
+          "conta": "Ana Paula de Lima",
+          "count": 48
+        }
+      ],
+      "null_favorecido_pct": 100.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "Reembolsos",
+      "n_records": 10850,
+      "n_years": 13,
+      "year_min": 2011,
+      "year_max": 2026,
+      "valor_mean": 741.29,
+      "valor_median": 288.0,
+      "valor_std": 2052.42,
+      "valor_min": -4253.0,
+      "valor_max": 48915.0,
+      "top_conta": [
+        {
+          "conta": "Napoleão Bernardes",
+          "count": 501
+        },
+        {
+          "conta": "Vicente Caropreso",
+          "count": 490
+        },
+        {
+          "conta": "Marcius da Silva Machado",
+          "count": 470
+        },
+        {
+          "conta": "Volnei Weber",
+          "count": 437
+        },
+        {
+          "conta": "Ivan Naatz",
+          "count": 411
+        }
+      ],
+      "null_favorecido_pct": 0.0,
+      "n_reversals": 1300,
+      "reversal_rate_pct": 11.9816,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "TELEFONE",
+      "n_records": 19530,
+      "n_years": 16,
+      "year_min": 2011,
+      "year_max": 2026,
+      "valor_mean": 703.96,
+      "valor_median": 395.46,
+      "valor_std": 932.79,
+      "valor_min": 0.15,
+      "valor_max": 18230.11,
+      "top_conta": [
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 544
+        },
+        {
+          "conta": "Pedro Baldissera",
+          "count": 539
+        },
+        {
+          "conta": "Mauro de Nadal",
+          "count": 507
+        },
+        {
+          "conta": "Neodi Saretta",
+          "count": 499
+        },
+        {
+          "conta": "Maurício José Eskudlark",
+          "count": 489
+        }
+      ],
+      "null_favorecido_pct": 100.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "VERBA INDENIZATÓRIA DO EXERCÍCIO PARLAMENTAR",
+      "n_records": 6683,
+      "n_years": 9,
+      "year_min": 2011,
+      "year_max": 2019,
+      "valor_mean": 545.75,
+      "valor_median": 203.0,
+      "valor_std": 720.55,
+      "valor_min": 4.97,
+      "valor_max": 7999.0,
+      "top_conta": [
+        {
+          "conta": "Luciane Carminatti",
+          "count": 340
+        },
+        {
+          "conta": "Jean Jackson Kuhlmann",
+          "count": 331
+        },
+        {
+          "conta": "Silvio Dreveck",
+          "count": 318
+        },
+        {
+          "conta": "Ismael dos Santos",
+          "count": 295
+        },
+        {
+          "conta": "Ana Paula de Lima",
+          "count": 293
+        }
+      ],
+      "null_favorecido_pct": 0.0,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    },
+    {
+      "category": "VEÍCULOS",
+      "n_records": 2905,
+      "n_years": 7,
+      "year_min": 2020,
+      "year_max": 2026,
+      "valor_mean": 7107.34,
+      "valor_median": 7824.91,
+      "valor_std": 2094.08,
+      "valor_min": 48.94,
+      "valor_max": 9326.87,
+      "top_conta": [
+        {
+          "conta": "Marcos Luiz Vieira",
+          "count": 76
+        },
+        {
+          "conta": "José Milton Scheffer",
+          "count": 75
+        },
+        {
+          "conta": "Sergio Motta Ribeiro",
+          "count": 75
+        },
+        {
+          "conta": "Jair Antonio Miotto",
+          "count": 75
+        },
+        {
+          "conta": "Vicente Caropreso",
+          "count": 75
+        }
+      ],
+      "null_favorecido_pct": 99.7935,
+      "n_reversals": 0,
+      "reversal_rate_pct": 0.0,
+      "cross_year_flagged": []
+    }
+  ]
+}

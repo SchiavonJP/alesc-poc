@@ -1,0 +1,38 @@
+{
+  "category": "Aluguel",
+  "n_records": 1738,
+  "n_years": 7,
+  "year_min": 2020,
+  "year_max": 2026,
+  "valor_mean": 2215.45,
+  "valor_median": 2246.32,
+  "valor_std": 746.59,
+  "valor_min": 7.9,
+  "valor_max": 3876.63,
+  "top_conta": [
+    {
+      "conta": "Maurício José Eskudlark",
+      "count": 104
+    },
+    {
+      "conta": "Julio Garcia",
+      "count": 77
+    },
+    {
+      "conta": "Ivan Naatz",
+      "count": 76
+    },
+    {
+      "conta": "Marcos Luiz Vieira",
+      "count": 74
+    },
+    {
+      "conta": "Fabiano da Luz",
+      "count": 74
+    }
+  ],
+  "null_favorecido_pct": 0.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": []
+}

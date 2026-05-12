@@ -1,0 +1,21 @@
+{
+  "category": "CORRESPONDENCIA___TELEGRAMA",
+  "n_records": 580,
+  "n_flagged_ensemble": 3,
+  "flagged_pct": 0.5172,
+  "iqr_baseline_pct": 11.3816,
+  "reduction_factor": 22.0,
+  "individual_model_rates": {
+    "iforest": 0.07931034482758621,
+    "knn": 0.6137931034482759,
+    "lof": 0.6482758620689655,
+    "gmm": 0.21551724137931033,
+    "ocsvm": 0.3137931034482759
+  },
+  "anomaly_valor_stats": {
+    "mean": 165.91,
+    "median": 64.84,
+    "min": 63.54,
+    "max": 369.35
+  }
+}

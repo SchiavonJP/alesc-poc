@@ -1,0 +1,21 @@
+{
+  "category": "VEICULOS",
+  "n_records": 1495,
+  "n_flagged_ensemble": 217,
+  "flagged_pct": 14.5151,
+  "iqr_baseline_pct": 15.0,
+  "reduction_factor": 1.03,
+  "individual_model_rates": {
+    "iforest": 0.21739130434782608,
+    "knn": 0.9565217391304348,
+    "lof": 1.0,
+    "gmm": 0.7739130434782608,
+    "ocsvm": 0.7846153846153846
+  },
+  "anomaly_valor_stats": {
+    "mean": 8410.35,
+    "median": 9418.39,
+    "min": 655.97,
+    "max": 9873.43
+  }
+}

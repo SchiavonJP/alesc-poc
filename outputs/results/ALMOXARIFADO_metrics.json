@@ -1,0 +1,21 @@
+{
+  "category": "ALMOXARIFADO",
+  "n_records": 1375,
+  "n_flagged_ensemble": 102,
+  "flagged_pct": 7.4182,
+  "iqr_baseline_pct": 9.7496,
+  "reduction_factor": 1.31,
+  "individual_model_rates": {
+    "iforest": 0.2290909090909091,
+    "knn": 0.6363636363636364,
+    "lof": 0.6,
+    "gmm": 0.44581818181818184,
+    "ocsvm": 0.46836363636363637
+  },
+  "anomaly_valor_stats": {
+    "mean": 1164.96,
+    "median": 172.73,
+    "min": 1.2,
+    "max": 16083.76
+  }
+}

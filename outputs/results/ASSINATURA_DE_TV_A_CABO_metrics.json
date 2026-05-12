@@ -1,0 +1,21 @@
+{
+  "category": "ASSINATURA_DE_TV_A_CABO",
+  "n_records": 1384,
+  "n_flagged_ensemble": 168,
+  "flagged_pct": 12.1387,
+  "iqr_baseline_pct": 15.0,
+  "reduction_factor": 1.24,
+  "individual_model_rates": {
+    "iforest": 0.1842485549132948,
+    "knn": 0.9356936416184971,
+    "lof": 0.9985549132947977,
+    "gmm": 0.8078034682080925,
+    "ocsvm": 0.869942196531792
+  },
+  "anomaly_valor_stats": {
+    "mean": 142.69,
+    "median": 131.68,
+    "min": 27.22,
+    "max": 246.92
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "category": "RESTAURANTE",
+  "n_records": 1907,
+  "n_years": 4,
+  "year_min": 2011,
+  "year_max": 2014,
+  "valor_mean": 5078.62,
+  "valor_median": 4880.11,
+  "valor_std": 3068.68,
+  "valor_min": 7.71,
+  "valor_max": 32075.88,
+  "top_conta": [
+    {
+      "conta": "Kennedy Nunes",
+      "count": 48
+    },
+    {
+      "conta": "Dirceu Luiz Dresch",
+      "count": 48
+    },
+    {
+      "conta": "Moacir Sopelsa",
+      "count": 48
+    },
+    {
+      "conta": "Pedro Baldissera",
+      "count": 48
+    },
+    {
+      "conta": "Ana Paula de Lima",
+      "count": 48
+    }
+  ],
+  "null_favorecido_pct": 100.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": []
+}

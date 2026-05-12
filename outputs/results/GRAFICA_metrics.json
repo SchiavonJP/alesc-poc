@@ -1,0 +1,21 @@
+{
+  "category": "GRAFICA",
+  "n_records": 499,
+  "n_flagged_ensemble": 38,
+  "flagged_pct": 7.6152,
+  "iqr_baseline_pct": 13.408,
+  "reduction_factor": 1.76,
+  "individual_model_rates": {
+    "iforest": 0.30861723446893785,
+    "knn": 0.7414829659318637,
+    "lof": 0.7755511022044088,
+    "gmm": 0.3667334669338677,
+    "ocsvm": 0.4228456913827655
+  },
+  "anomaly_valor_stats": {
+    "mean": 309.35,
+    "median": 76.93,
+    "min": 4.56,
+    "max": 2416.01
+  }
+}

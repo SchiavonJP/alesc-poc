@@ -1,0 +1,38 @@
+{
+  "category": "TELEFONE",
+  "n_records": 19530,
+  "n_years": 16,
+  "year_min": 2011,
+  "year_max": 2026,
+  "valor_mean": 703.96,
+  "valor_median": 395.46,
+  "valor_std": 932.79,
+  "valor_min": 0.15,
+  "valor_max": 18230.11,
+  "top_conta": [
+    {
+      "conta": "Marcos Luiz Vieira",
+      "count": 544
+    },
+    {
+      "conta": "Pedro Baldissera",
+      "count": 539
+    },
+    {
+      "conta": "Mauro de Nadal",
+      "count": 507
+    },
+    {
+      "conta": "Neodi Saretta",
+      "count": 499
+    },
+    {
+      "conta": "Maurício José Eskudlark",
+      "count": 489
+    }
+  ],
+  "null_favorecido_pct": 100.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": []
+}

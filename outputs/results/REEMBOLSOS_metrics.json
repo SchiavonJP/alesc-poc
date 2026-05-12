@@ -1,0 +1,21 @@
+{
+  "category": "REEMBOLSOS",
+  "n_records": 5709,
+  "n_flagged_ensemble": 90,
+  "flagged_pct": 1.5765,
+  "iqr_baseline_pct": 11.2837,
+  "reduction_factor": 7.16,
+  "individual_model_rates": {
+    "iforest": 0.16307584515677,
+    "knn": 0.2883166929409704,
+    "lof": 0.3517253459449991,
+    "gmm": 0.5715536871606236,
+    "ocsvm": 0.34769661937291996
+  },
+  "anomaly_valor_stats": {
+    "mean": 2630.97,
+    "median": 578.4,
+    "min": 105.83,
+    "max": 49160.66
+  }
+}

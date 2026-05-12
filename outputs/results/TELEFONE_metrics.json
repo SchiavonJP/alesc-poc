@@ -1,0 +1,21 @@
+{
+  "category": "TELEFONE",
+  "n_records": 3712,
+  "n_flagged_ensemble": 31,
+  "flagged_pct": 0.8351,
+  "iqr_baseline_pct": 8.2015,
+  "reduction_factor": 9.82,
+  "individual_model_rates": {
+    "iforest": 0.11772629310344827,
+    "knn": 0.6514008620689655,
+    "lof": 0.5897090517241379,
+    "gmm": 0.2174030172413793,
+    "ocsvm": 0.42510775862068967
+  },
+  "anomaly_valor_stats": {
+    "mean": 220.67,
+    "median": 42.13,
+    "min": 8.85,
+    "max": 1065.44
+  }
+}

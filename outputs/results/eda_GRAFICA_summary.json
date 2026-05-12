@@ -1,0 +1,46 @@
+{
+  "category": "GRÁFICA",
+  "n_records": 3555,
+  "n_years": 16,
+  "year_min": 2011,
+  "year_max": 2026,
+  "valor_mean": 388.31,
+  "valor_median": 60.0,
+  "valor_std": 1428.22,
+  "valor_min": 0.2,
+  "valor_max": 31057.5,
+  "top_conta": [
+    {
+      "conta": "Marcos Luiz Vieira",
+      "count": 116
+    },
+    {
+      "conta": "Pedro Baldissera",
+      "count": 115
+    },
+    {
+      "conta": "José Milton Scheffer",
+      "count": 114
+    },
+    {
+      "conta": "Ismael dos Santos",
+      "count": 107
+    },
+    {
+      "conta": "Luciane Carminatti",
+      "count": 104
+    }
+  ],
+  "null_favorecido_pct": 100.0,
+  "n_reversals": 0,
+  "reversal_rate_pct": 0.0,
+  "cross_year_flagged": [
+    {
+      "year": 2016,
+      "mean": 1056.8419330855018,
+      "std": 3253.359946181814,
+      "count": 269,
+      "z_score": 2.829544336640746
+    }
+  ]
+}

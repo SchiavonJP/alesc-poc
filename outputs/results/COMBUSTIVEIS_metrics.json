@@ -1,0 +1,16 @@
+{
+  "category": "COMBUSTIVEIS",
+  "n_records": 170,
+  "n_flagged_ensemble": 0,
+  "flagged_pct": 0.0,
+  "iqr_baseline_pct": 3.0027,
+  "reduction_factor": 30026809.65,
+  "individual_model_rates": {
+    "iforest": 0.01764705882352941,
+    "knn": 0.3176470588235294,
+    "lof": 0.3352941176470588,
+    "gmm": 0.34705882352941175,
+    "ocsvm": 0.2411764705882353
+  },
+  "anomaly_valor_stats": {}
+}
