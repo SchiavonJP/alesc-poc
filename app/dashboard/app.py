@@ -75,7 +75,7 @@ SOD_COLS = ["score_sod", "anomaly_sod"]
 # ── Page config ───────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="ALESC Anomaly Detection",
+    page_title="ALESC — Detecção de Anomalias",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -268,25 +268,25 @@ if st.sidebar.button("🔄 Atualizar dados", help="Limpa o cache e recarrega os 
     st.rerun()
 
 PAGES = [
-    "🏠 Home",
-    "📊 Data Explorer",
-    "🔬 EDA",
-    "🚨 Anomaly Results",
-    "🏆 Leaderboard",
+    "🏠 Início",
+    "📊 Explorar Dados",
+    "🔬 Análise Exploratória",
+    "🚨 Anomalias Detectadas",
+    "🏆 Ranking",
     "🔍 Auditoria",
-    "📈 Temporal Trend",
-    "🧠 Explicability",
+    "📈 Tendência Temporal",
+    "🧠 Explicabilidade",
 ]
 
-page = st.sidebar.radio("Navigation", PAGES)
+page = st.sidebar.radio("Navegação", PAGES)
 
 # CEOS-branded banner on every page (Home included).
 render_header()
 
 # ── Page: Home ────────────────────────────────────────────────────────────────
 
-if page == "🏠 Home":
-    st.title("ALESC Anomaly Detection Dashboard")
+if page == "🏠 Início":
+    st.title("Painel de Detecção de Anomalias — ALESC")
     st.markdown(
         "**Detecção de anomalias em despesas parlamentares da ALESC (2011–2026)**  \n"
         "Ensemble não supervisionado: **IForest + KNN + LOF + GMM + OCSVM** (5 modelos — replicação do paper) "
@@ -364,7 +364,7 @@ if page == "🏠 Home":
                   "iqr_baseline_pct", "reducao_vs_iqr"]].rename(columns={
                 "category": "Categoria",
                 "n_records": "Registros avaliados",
-                "n_flagged_ensemble": "Flagged (consenso)",
+                "n_flagged_ensemble": "Sinalizados (consenso)",
                 "flagged_pct": "Taxa (%)",
                 "iqr_baseline_pct": "Baseline IQR (%)",
                 "reducao_vs_iqr": "Redução vs IQR",
@@ -391,8 +391,8 @@ if page == "🏠 Home":
 
 # ── Page: Data Explorer ───────────────────────────────────────────────────────
 
-elif page == "📊 Data Explorer":
-    st.title("Data Explorer")
+elif page == "📊 Explorar Dados":
+    st.title("Explorar Dados")
     df = load_intermediate()
     if df.empty:
         st.warning("Rode o pipeline de ingestão primeiro: `python -m alesc_poc.pipeline_runner`")
@@ -440,8 +440,8 @@ elif page == "📊 Data Explorer":
 
 # ── Page: EDA ─────────────────────────────────────────────────────────────────
 
-elif page == "🔬 EDA":
-    st.title("EDA Profiles")
+elif page == "🔬 Análise Exploratória":
+    st.title("Análise Exploratória — Perfis EDA")
     reports_dir = "outputs/reports"
 
     # Show EDA summary JSON if available
@@ -492,8 +492,8 @@ elif page == "🔬 EDA":
 
 # ── Page: Anomaly Results ─────────────────────────────────────────────────────
 
-elif page == "🚨 Anomaly Results":
-    st.title("Anomaly Results")
+elif page == "🚨 Anomalias Detectadas":
+    st.title("Anomalias Detectadas")
     cats = available_categories()
     if not cats:
         st.warning("Sem resultados. Execute o pipeline.")
@@ -522,7 +522,7 @@ elif page == "🚨 Anomaly Results":
         st.plotly_chart(fig, use_container_width=True)
 
     flagged = df_anom[df_anom["ensemble_flag"] == 1]
-    st.metric("Registros flagged (consenso)", len(flagged))
+    st.metric("Registros sinalizados (consenso)", len(flagged))
 
     if not flagged.empty:
         flagged_decoded = add_decoded_feature_col(flagged)
@@ -551,8 +551,8 @@ elif page == "🚨 Anomaly Results":
 
 # ── Page: Leaderboard ─────────────────────────────────────────────────────────
 
-elif page == "🏆 Leaderboard":
-    st.title("Leaderboard — Parlamentares com Mais Anomalias")
+elif page == "🏆 Ranking":
+    st.title("Ranking — Parlamentares com Mais Anomalias")
     cats = available_categories()
     if not cats:
         st.warning("Sem resultados.")
@@ -567,7 +567,7 @@ elif page == "🏆 Leaderboard":
             frames.append(flagged)
 
     if not frames:
-        st.info("Nenhum registro flagged encontrado.")
+        st.info("Nenhum registro sinalizado encontrado.")
         st.stop()
 
     combined = pd.concat(frames, ignore_index=True)
@@ -629,7 +629,7 @@ elif page == "🔍 Auditoria":
 
     all_flagged = load_all_flagged()
     if all_flagged.empty:
-        st.warning("Sem registros flagged. Execute o pipeline primeiro.")
+        st.warning("Sem registros sinalizados. Execute o pipeline primeiro.")
         st.stop()
 
     tab_rank, tab_profile, tab_data = st.tabs(["🎯 Casos Rankeados", "📊 Perfil por Categoria", "📋 Dados Completos"])
@@ -936,7 +936,7 @@ elif page == "🔍 Auditoria":
     with tab_data:
         st.markdown(
             "Consulte **todos os registros** de uma categoria para contextualizar as anomalias. "
-            "Registros flagged são destacados. Filtre por parlamentar para ver o histórico completo."
+            "Registros sinalizados são destacados. Filtre por parlamentar para ver o histórico completo."
         )
 
         data_cat = st.selectbox("Categoria", available_categories(), key="data_cat_select")
@@ -1049,8 +1049,8 @@ elif page == "🔍 Auditoria":
 
 # ── Page: Temporal Trend ──────────────────────────────────────────────────────
 
-elif page == "📈 Temporal Trend":
-    st.title("Temporal Trend — Taxa de Anomalias por Ano")
+elif page == "📈 Tendência Temporal":
+    st.title("Tendência Temporal — Taxa de Anomalias por Ano")
 
     st.markdown(
         "Os modelos foram **treinados em 2011–2022** (excl. 2020). "
@@ -1082,14 +1082,14 @@ elif page == "📈 Temporal Trend":
                 trend_df, x="year", y="flagged_pct", color="category",
                 markers=True,
                 title="Taxa de Anomalias (%) por Ano e Categoria — Período de Avaliação",
-                labels={"flagged_pct": "% Flagged", "year": "Ano", "category": "Categoria"},
+                labels={"flagged_pct": "% Sinalizados", "year": "Ano", "category": "Categoria"},
             )
             st.plotly_chart(fig, use_container_width=True)
 
 # ── Page: Explicability ───────────────────────────────────────────────────────
 
-elif page == "🧠 Explicability":
-    st.title("Explicability — Importância de Features (SHAP)")
+elif page == "🧠 Explicabilidade":
+    st.title("Explicabilidade — Importância de Variáveis (SHAP)")
     cats = available_categories()
     if not cats:
         st.warning("Sem resultados.")
@@ -1112,9 +1112,9 @@ elif page == "🧠 Explicability":
     # Summary SHAP beeswarm plot
     summary_path = f"outputs/plots/{cat}/shap_summary.png"
     if os.path.exists(summary_path):
-        st.subheader("Importância Global de Features (SHAP Beeswarm)")
+        st.subheader("Importância Global de Variáveis (SHAP Beeswarm)")
         st.markdown(
-            "Cada ponto é um registro flagged. Cor **vermelha** = feature com valor alto; "
+            "Cada ponto é um registro sinalizado. Cor **vermelha** = variável com valor alto; "
             "cor **azul** = valor baixo. Posição no eixo X indica impacto no score de anomalia."
         )
         st.image(summary_path)
@@ -1165,10 +1165,10 @@ elif page == "🧠 Explicability":
 
     # Flagged records table with decoded features
     if not df_anom.empty and "top_feature" in df_anom.columns:
-        st.subheader("Registros Flagged com Feature Principal Decodificada")
+        st.subheader("Registros Sinalizados com Variável Principal Decodificada")
         flagged = df_anom[df_anom["ensemble_flag"] == 1]
         if flagged.empty:
-            st.info("Nenhum registro flagged nesta categoria.")
+            st.info("Nenhum registro sinalizado nesta categoria.")
         else:
             flagged_decoded = add_decoded_feature_col(flagged)
             display_cols = [c for c in [
