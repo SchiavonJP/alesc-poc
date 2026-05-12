@@ -1,0 +1,39 @@
+app/dashboard/app.py
+  s_2107dc1f93bfe3::t_52bb104e62ef02 288-289
+  s_2107dc1f93bfe3::t_65d08f3d13c022 1091
+  s_2107dc1f93bfe3::t_1a1bf8ba82cb6e 632
+  s_2107dc1f93bfe3::t_53f8702e7c4ec8 570
+  s_2107dc1f93bfe3::t_5dc6c999bfbe4f 1052
+  s_2107dc1f93bfe3::t_c23696f778854a 1053
+  s_2107dc1f93bfe3::t_20c6fb63916cfd 1171
+  s_2107dc1f93bfe3::t_bfe961869c527d 1117
+  s_2107dc1f93bfe3::t_7178b06daed940 271-275,277-278,281
+  s_2107dc1f93bfe3::t_8d49665d8d57e9 525
+  s_2107dc1f93bfe3::t_7eb4d3b97ae5f4 554-555
+  s_2107dc1f93bfe3::t_373ccf123bd230 1085
+  s_2107dc1f93bfe3::t_e739c805b33418 1168
+  s_2107dc1f93bfe3::t_a0736984877856 367
+  s_2107dc1f93bfe3::t_17e976283dea9e 78
+  s_2107dc1f93bfe3::t_c1f90d90ea488e 939
+  s_2107dc1f93bfe3::t_2c8da9eeeffbde 394-395
+  s_2107dc1f93bfe3::t_594b39d3f30ec4 443-444
+  s_2107dc1f93bfe3::t_2b75a4eb4234db 1092
+  s_2107dc1f93bfe3::t_74441b7f84cb0c 1115
+  s_2107dc1f93bfe3::t_75519903afce45 495-496
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.4",
+  "base_commit_sha": "ec7a61efbb02f42b66767cb38943e80e2d427fd3",
+  "prompts": {},
+  "sessions": {
+    "s_2107dc1f93bfe3": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5e9c193e-fc21-498d-8eaf-4c3b18d5bd51",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "João Paulo Schiavon <schiavonjp@yahoo.com.br>"
+    }
+  }
+}
